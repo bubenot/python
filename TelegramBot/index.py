@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-name = 'WEALYControl | Control Home Server`s'
+name = 'TenderBot'
 print("[*] Бот Telegram " + name + " успешно запущен!")
 
 bot = telebot.TeleBot('token')
