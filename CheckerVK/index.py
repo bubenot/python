@@ -12,7 +12,7 @@ try:
 			line = [x.strip() for x in line.split(":")]
 			lap = (line[0], line[1])
 			account.append(lap)
-	line_string = sum(1 for l in open('accounts/db.txt', 'r')) #высчитывает кол-во строк в файле, почему это? Потому что с len проблемы нахуй, и оно вычисляет длину строки, а не кол-во строк
+	line_string = sum(1 for l in open('accounts/db.txt', 'r')) #высчитывает кол-во строк в файле, почему это? Потому что с len проблемы, и оно вычисляет длину строки, а не кол-во строк
 	if line_string > int(0):
 		print("Всего аккаунтов в базе: " + str(line_string))
 	else:
